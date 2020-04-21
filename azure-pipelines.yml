@@ -1,8 +1,4 @@
 # ASP.NET Core
-- task: Docker@2
-  inputs:
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
 # Build and test ASP.NET Core projects targeting .NET Core.
 - task: DotNetCoreCLI@2
   inputs:
